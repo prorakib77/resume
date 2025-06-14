@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Button animations */
+.MuiButton-contained {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.MuiButton-contained:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Card hover effect */
+.MuiCard-root {
+  transition: all 0.3s ease;
+}
+
+/* Responsive typography */
+@media (max-width: 600px) {
+  .MuiTypography-h1 {
+    font-size: 2.5rem !important;
+  }
+  .MuiTypography-h2 {
+    font-size: 2rem !important;
+  }
+}
